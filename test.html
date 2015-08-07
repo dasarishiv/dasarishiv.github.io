@@ -12,7 +12,19 @@
 	  	$( document ).ready(function() {
  
 			   $("#testMail").on("click", function(e){
-			   	alert("Here");
+			   	$.ajax({
+					  type: "POST",
+					  url: "http://flypaperplane.com/api",
+					  data: { 
+					    // Example Form Data. Get it dynamically from user!
+					    email: "hello@example.com", 
+					    message: "Hello World"
+					  },
+					  success: function(response) {
+					    console.log(response);
+					  },
+					  dataType: "json"
+					});
 			   });
 			 
 			});

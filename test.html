@@ -6,11 +6,17 @@
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
-	  <button onClick="testMail()">Test</button>
+	  <button id="testMail" onClick="testMail()">Test</button>
+	  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 	  <script>
-	    function testMail(){
-	      alert("Test mail");
-	    }
+	  	$( document ).ready(function() {
+ 
+			   $("#testMail").on("click", function(e){
+			   	alert("Here");
+			   });
+			 
+			});
+	   
 	  </script>
 	<body>
 	

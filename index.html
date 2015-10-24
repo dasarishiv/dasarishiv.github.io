@@ -1,40 +1,469 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Dasari Shiv, Developersense.com</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<!--<li><a href="/">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>--->
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Shiv Dasari!</h1>
-				<p>I'm best known as Developer from <em>Developer Sense</em> Web Development with sense. <!--<a href="/about">Read more about my life...</a>--></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-			<h2>My Contacts</h2>
-    		<ul>
-        		<li><a href="mailto:dasarishiv@gmail.com">email:dasarishiv@gmail.com</a></li>
-        		<li><a href="mailto:info@developersense.com">email:info@developersense.com</a></li>
-        		<li><a href="https://www.facebook.com/dasarishiv">Facebook:https://www.facebook.com/dasarishiv</a></li>
-        		<li><a href="https://www.linkedin.com/in/dasarishiv">Linkedin:https://www.linkedin.com/in/dasarishiv</a></li>
-        		<li><a href="https://twitter.com/dasarishiv">twitter:@dasarishiv</a></li>
-        		<li><a href="/">Skype:dasarishiv</a></li>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="description" content="Shiv Dasari's Development World and Portfolio website">
+  <meta name="keywords" content="Shiv Dasari's world, Web and Mobile development with sense of productivity, usability and maintaince. Product development with best practices and Team building with training to ensure best quality always. Front end web development, Mobile application development, Extjs, Angularjs, HTML,CSS,XML,JavaScript, Trainer, Training, Extjs Training, Job support, Front end Consultant, Mobile developer, Web developer, Hybid mobile application development.">
+    <meta name="author" content="Shiv Dasari">
+    <title>Deverloper Sense: Shiv Dasari's Development World</title>
+    
+    <meta property="og:title" content="Deverloper Sense: Shiv Dasari's Development World" />
+    <meta property="og:site_name" content="Shiv Dasari's Development World and Portfolio website"/>
+    <meta property="og:url" content="http://www.developersense.com" />
+    <meta property="og:description" content="Shiv Dasari's world, Web and Mobile development with sense of productivity, usability and maintaince. Product development with best practices and Team building with training to ensure best quality always. Front end web development, Mobile application development, Extjs, Angularjs, HTML,CSS,XML,JavaScript, Trainer, Training, Extjs Training, Job support, Front end Consultant, Mobile developer, Web developer, Hybid mobile application development." />
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+  <link href="assets/vendor/materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="assets/vendor/materialize/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+	<!-- Loader -->
+	<div id="loader-wrapper">
+		<div id="loader"></div>
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+	</div>
+	<!-- /Loader -->
+
+  <header>
+
+	 <!-- Main Nav -->
+    <nav role="navigation" class="grey lighten-5">
+      <div class="nav-wrapper container">
+        <a href="/" class="brand-logo">Developer Sense</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="mainto:dasarishiv@gmail.com"><i class="material-icons left pink-text">info</i>dasarishiv@gmail.com</a></li>
+            <li><a href="tel:+919701014154"><i class="material-icons left">phone</i>+91-9701014154</a></li>
+          <li><a href="assets/custom/DShivResume.pdf" target="_blank"><i class="material-icons right blue-text">play_for_work</i>Resume</a></li>
+        </ul>
+
+			<!-- Mobile Menu -->
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skillset">Skillset</a></li>
+          <li><a href="#experiance">Experiance</a></li>
+          <li><a href="#work">My Work</a></li>
+          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#contact">Connect Me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+
+    <a id="home" name="home"></a>
+    
+
+    <div id="hero" class="parallax-container valign-wrapper">
+        <div class="header">
+          <div class="container">
+            <div class="hero-text valign">
+              <div class="row">
+                <h2 class="light white-text">Welcome to Shiv's World</h2>
+                <div class="dark-giant-title">
+                  <h1 class="white-text text-lighten-2"><span class="text-highlight">Sense of Development</span></h1>
+                </div>
+                <h6 class=" lighten-5"><span>Training and Web, Mobile application development</span></h6>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+        <div class="parallax"><img src="assets/custom/images/banner.png" alt="Developer sense banner"></div>
+      </div>
+    
+    
+    <!-- Skillset Block -->
+  <section id="skillset" class="t-block">
+      <div class="row no-pad-bot pt-section" data-name="Features" id="ptsection-two">
+        <div class="col s12 m6 l3 light-blue darken-4">
+          <div class="content">
+            <i class="material-icons">assignment_ind</i>
+            <h5 class="white-text">Consultant</h5>
+            <p class="white-text light">
+              Front end technology consultant for application architecture, framework selection, preformation consideration, best practice and code review.
+            </p>
+          </div>
+        </div>
+        <div class="col s12 m6 l3 orange darken-1">
+          <div class="content">
+            <i class="material-icons">track_changes</i>
+            <h5 class="white-text">Training</h5>
+            <p class="white-text light">
+              Corporate and Individual training on front end technology like HTML, CSS, JavaScript, JavaScript based framework like Extjs, Nodejs, Angularjs, jQuery etc.
+            </p>
+          </div>
+        </div>
+        <div class="col s12 m6 l3 pink darken-1">
+          <div class="content">
+            <i class="material-icons">airplay</i>
+            <h5 class="white-text">Web Development</h5>
+            <p class="white-text light">
+              Over 11 years on cross-domain large enterprise corporate application end-to-end development. Extensive work experience on cross browser web application development. 
+            </p>
+          </div>
+        </div>
+        <div class="col s12 m6 l3 blue darken-1">
+          <div class="content">
+            <i class="material-icons">android</i>
+            <h5 class="white-text">Mobile Application</h5>
+            <p class="white-text light">
+              Hybrid Mobile application development on Cordova / Phonegap and frameworks like  ICONIC, Sencha Touch,  IBM Worklight etc.  In native Android and iOS (Swift) based application development. 
+            </p>
+          </div>
+        </div>
+        
+      </div>
+  </section>
+    
+    
+    
+    <!-- Experiance Block -->
+  <section id="experiance" class="white">
+    <div class="container">
+      <div class="section">
+        <div class="row">
+			  <h3 class="light center pink-text text-darken-4 text-darken-3">My Experiance</h3>
+			  <p class="center light">11+ years of Information Technology cross Domain experiance</p>
+			  <div class="divider4"></div>
+
+            <div class="col s12 l4">
+            <div class="row">
+              <div class="col s12 m2 l3 icon-block">
+                <h2 class="pink-text text-darken-4"><i class="material-icons">supervisor_account</i></h2>
+              </div>
+              <div class="col s12 m10 l9">
+                <h5 class="light">Training</h5>
+                <p class="light">
+                  I believe on "Sharing knowledge is Gaining knowledge". This helps to interact with other peoples and also motivate me to keep learning new technologies. Over 500+ hrs corporate training conducted till now and still counting.
+                </p>
+              </div>
+            </div>
+            <div class="divider2"></div>
+          </div>
+            
+          <div class="col s12 l4">
+            <div class="row">
+              <div class="col s12 m2 l3 icon-block">
+                <h2 class="pink-text text-darken-4"><i class="material-icons">sort_by_alpha</i></h2>
+              </div>
+              <div class="col s12 m10 l9">
+                <h5 class="light">Sencha Ext JS</h5>
+                <p class="light">
+                  Sencha Extjs is core framework on which I worked more then 8 years. 20+ enterprise application development and architect support. 500+ hrs of corporate training conducted as trainer.
+                </p>
+              </div>
+            </div>
+            <div class="divider2"></div>
+          </div>
+
+          
+
+          <div class="col s12 l4">
+            <div class="row">
+              <div class="col s12 m2 l3 icon-block">
+                <h2 class="pink-text text-darken-4"><i class="material-icons">code</i></h2>
+              </div>
+              <div class="col s12 m10 l9">
+                <h5 class="light">Angular JS</h5>
+                <p class="light">
+                  11+ enterprise application development experience on multiple sectors like Manufacture, Banking and Healthcare with Angular js. These applications developed with sense of future scalability and maintance.
+                </p>
+              </div>
+            </div>
+            <div class="divider2"></div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col s12 l4">
+            <div class="row">
+              <div class="col s12 m2 l3 icon-block">
+                <h2 class="pink-text text-darken-4"><i class="material-icons">phonelink_setup</i></h2>
+              </div>
+              <div class="col s12 m10 l9">
+                <h5 class="light">RWD</h5>
+                <p class="light">
+                  Responsive Web Development is core of current web application.  During my experience learn and implemented RWD in new development and ported old web site into RWD with all best practices by ensure performance do not compromise. 
+                </p>
+              </div>
+            </div>
+            <div class="divider2"></div>
+          </div>
+            
+            
+            
+
+          <div class="col s12 l4">
+            <div class="row">
+              <div class="col s12 m2 l3 icon-block">
+                <h2 class="pink-text text-darken-4"><i class="material-icons">android</i></h2>
+              </div>
+              <div class="col s12 m10 l9">
+                <h5 class="light">Native Mobile</h5>
+                <p class="light">
+                 Mobile application development is my current passion and learning curve. Till now only 3+ mobile application development, but learn lot during this phase. Currently very aggressively learning on iOS platform and enhancing on Android.
+                </p>
+              </div>
+            </div>
+            <div class="divider2"></div>
+          </div>
+
+          <div class="col s12 l4">
+            <div class="row">
+              <div class="col s12 m2 l3 icon-block">
+                <h2 class="pink-text text-darken-4"><i class="material-icons">tab</i></h2>
+              </div>
+              <div class="col s12 m10 l9">
+                <h5 class="light">Hybrid Mobile</h5>
+                <p class="light">
+                  Hybrid Mobile application development is one of my favorite areas of work. 12+ application development experience. We can use the same code in mobile native way and web with small code changes.
+                </p>
+              </div>
+            </div>
+            <div class="divider2"></div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+    
+    
+    
+    <!-- Work Block -->
+  <div id="work" class="parallax-container valign-wrapper">
+      <section id="slider">
+        <div class="slider fullscreen">
+
+          <ul class="slides">
+            <li>
+             <img alt="blank" src="">
+              <div class="caption right-align">
+                <div class="row left-align">
+                  <h2 class="light white-text text-darken-1">Technology</h2>
+                  <div class="dark-giant-title">
+                    <h1 class="white-text text-darken-1"><span class="text-highlight">Web</span></h1>
+                  </div>
+                  <h4 class="light white-text text-darken-1"><span>50+ enterprise application</span></h4>
+                  <h5 class="light white-text text-darken-1"><span>Angularjs, jQuery, Backbone</span></h5>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img alt="blank" src="">
+              <div class="caption right-align">
+                <div class="row left-align">
+                  <h2 class="light white-text text-darken-1">Advance JS</h2>
+                  <div class="dark-giant-title">
+                    <h1 class="white-text text-darken-1"><span class="text-highlight">Extjs</span></h1>
+                  </div>
+                  <h4 class="light white-text text-darken-1"><span>20+ enterprise application</span></h4>
+                   <h5 class="light white-text text-darken-1"><span>Extjs 2.x, 4.x, 5.x and 6.x</span></h5>
+                </div>
+                <div class="divider2"></div>
+              </div>
+            </li>
+            <li>
+             <img alt="blank" src="">
+              <div class="caption right-align">
+                <div class="row left-align">
+                  <h2 class="light white-text text-darken-1">Technology</h2>
+                  <div class="dark-giant-title">
+                    <h1 class="white-text text-darken-1"><span class="text-highlight">RWD</span></h1>
+                  </div>
+                    <h4 class="light white-text text-darken-1"><span>30+ enterprise application</span></h4>
+                    <h5 class="light white-text text-darken-1"><span>Core, LESS, SASS, Bootstrap, Foundation</span></h5>
+                </div>
+                <div class="divider2"></div>
+               
+              </div>
+            </li>
+            <li>
+             <img alt="blank" src="">
+              <div class="caption right-align">
+                <div class="row left-align">
+                  <h2 class="light white-text text-darken-1">Technology</h2>
+                  <div class="dark-giant-title">
+                    <h1 class="white-text text-darken-1"><span class="text-highlight">Mobile</span></h1>
+                  </div>
+                    <h4 class="light white-text text-darken-1"><span>15+ mobile application</span></h4>
+                  <h5 class="light white-text text-darken-1"><span>Hybrid and Native mobile application</span></h5>
+                </div>
+                <div class="divider2"></div>
+                
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="parallax"><img src="assets/custom/images/workBG.png" alt="Developer sense work"></div>
+  </div>
+
+<!-- About me Block -->
+   <section id="aboutme" class="cyan darken-3">
+     <div class="">
+       <div class="section valign pt-section" data-name="Clients" id="ptsection-four">
+         <div class="container">
+           <div class="row center">
+
+             <h3 class="white-text center light">About Me</h3>
+             
+             <div class="divider4"></div>
+           
+             <div class="col s12 left-align">
+               <div class="card-panel grey lighten-4 z-depth-1 hoverable">
+                 <div class="row">
+                   <div class="col s12">
+                       <a class="waves-effect waves-light btn right hide-on-med-and-down" href="assets/custom/DShivResume.pdf" target="_blank"><i class="material-icons left">play_for_work</i>Resume</a>
+                       <div class="row valign-wrapper">
+                            <div class="col s2">
+                              <img src="assets/custom/images/shiv_photo.jpg" alt="Developer Sense Shiv Dasari" class="circle responsive-img">
+                            </div>
+                            <div class="col s10">
+                              <h5 class="black-text light">
+                                Shiv Dasari
+                              </h5>
+                                <h6 class="black-text light">UI Archtech, Consultant, Trainer and Developer</h6>
+                                <a class="waves-effect waves-light btn hide-on-large-only" href="assets/custom/DShivResume.pdf" target="_blank"><i class="material-icons left">play_for_work</i>Resume</a>
+                            </div>
+                  </div>
+                   </div>
+                     </div>
+                   <div class="row">
+                   <div class="col s12 left-align">
+                     
+                     <p class="black-text">
+                       Over 11+ years of experience in all facets of web frontend development poses more experience on client facing, understand requirement, team building and management. I love to coding and learning new technologies. Passionate on handling challenging work where time bound is key factor. Love to share experience and team building, that’s why conducting training and team building is my another core area of work.
+
+                     </p>
+                   </div>
+                       </div>
+                   <div class="divider1"></div>
+                   <div class="row">
+                     
+                    <div class="col s12 left-align">
+                     <h5 class="pink-text">Expertise</h5>
+                        
+                     <p class="black-text">
+                       Expertise in front-end technologies like HTML, CSS and JavaScript.  Exclusive worked on Extjs, Angularjs, Sencha touch, Bootstrap, Dojo, Foundation etc.<br />
+                        On mobile development, Cordova, Phonegap, IBM worklight, ICONIC, Sencha Touch, Extjs 6, Android and iOS(Swift).
+                     </p>
+                   </div>
+                 </div>
+                   <div class="divider1"></div>
+                   <div class="row">
+                     
+                    <div class="col s12 left-align">
+                     <h5 class="pink-text">Domain Experiance</h5>
+                        
+                     <p class="black-text">
+                       I got chance to work on many domain streams like <br/>
+                         Social site: <a href="http://www.pycer.com" target="_blank">www.pycker.com</a><br/>
+                         Banking domain: TD bank (web and mobile app), Wells Fargo<br/>
+                         Insurance domain: Manulife, SunLife, MaxLife, AIA<br/>
+                         Manufacturing domain: Firmenich<br/>
+                         Healthcare: Medassets<br/>
+                         Product development: Xerox
+                     </p>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             
+           </div>
+          
+         </div>
+       </div>
+     </div>
+   </section>
+  
+
+  
+
+
+
+
+	<!-- Footer -->
+  <footer class="page-footer blue-grey darken-3" id="contact">
+	  
+
+	 <div class="footer-menu">
+		  <div class="container">
+        <h3 class="center light white-text">Connect Me</h3>
+			<p class="center  white-text light">Any development work Web/Mobile and front end technology training and support</p>
+			<div class="divider4"></div>
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <div class="row">
+				 <div class="col s12">
+					 <h2 class="white-text">Developer Sense</h2>
+					 <p class="grey-text text-lighten-1 light">Shiv Dasari's world, Web and Mobile development with sense of productivity, usability and maintaince. Product development with best practices and Team building with training to ensure best quality always.</p>
+				 </div>
+				 <div class="col s12">
+					 <h6 class="white-text light">Connect with</h6>
+                     
+                     <ul>
+        		<li><a class="grey-text text-lighten-1 light" href="mailto:dasarishiv@gmail.com">Email:dasarishiv@gmail.com</a></li>
+        		<li><a class="grey-text text-lighten-1 light" href="mailto:info@developersense.com">Email:info@developersense.com</a></li>
+        		<li><a class="grey-text text-lighten-1 light" href="https://www.facebook.com/dasarishiv">Facebook:https://www.facebook.com/dasarishiv</a></li>
+        		<li><a class="grey-text text-lighten-1 light" href="https://www.linkedin.com/in/dasarishiv">Linkedin:https://www.linkedin.com/in/dasarishiv</a></li>
+        		<li><a class="grey-text text-lighten-1 light" href="https://twitter.com/dasarishiv">Twitter:@dasarishiv</a></li>
+        		<li><a class="grey-text text-lighten-1 light" href="/">Skype:dasarishiv</a></li>
         		
-        		<li><a href="https://www.google.com/+ShivDasari">Google +:https://www.google.com/+ShivDasari</a></li>
-        		<li><a href="https://www.youtube.com/c/ShivDasari">Youtube +:https://www.youtube.com/c/ShivDasari</a></li>
+        		<li><a class="grey-text text-lighten-1 light" href="https://www.google.com/+ShivDasari">Google +:https://www.google.com/+ShivDasari</a></li>
+        		<li><a class="grey-text text-lighten-1 light" href="https://www.youtube.com/c/ShivDasari">Youtube +:https://www.youtube.com/c/ShivDasari</a></li>
         		
-        		<li><a href="https://github.com/dasarishiv">github.com/dasarishiv</a></li>
+        		<li><a class="grey-text text-lighten-1 light" href="https://github.com/dasarishiv">github.com/dasarishiv</a></li>
 			</ul>
-		</footer>
-	</body>
+				 </div>
+			 </div>
+            <div class="divider4"></div>
+          </div>
+          <form class="col s12 m12 l5 offset-l1" action="//formspree.io/dasarishiv@gmail.com" method="POST" id="frmMessage">
+              <h6 class="grey-text text-lighten-1 light">Leave Message</h6>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="name" type="text" class="validate" length="20" name="entry.205733669" required>
+                <label for="name">Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate" name="entry.824636178" required>
+                <label for="email" data-error="Invalid Email!" autocomplete="off">Email</label>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="message" class="materialize-textarea" length="120" name="entry.1511370499" required></textarea>
+                <label for="message">Message Text</label>
+              </div>
+            </div>
+            <button class="btn btn-large waves-effect waves-light orange" type="submit" >Submit</button>
+          </form>
+        </div>
+      </div>
+	 </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="assets/vendor/materialize/js/materialize.js"></script>
+  <script src="assets/vendor/materialize/js/init.js"></script>
+
+  
+
+  </body>
 </html>
